@@ -1,0 +1,19 @@
+{
+    "name": "mstroink/hangman",
+    "description": "simple hangman game in php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mstroink",
+            "email": "marijnstroink@gmail.com"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "mstroink\\Hangman\\": "src"
+        }
+    }
+}
